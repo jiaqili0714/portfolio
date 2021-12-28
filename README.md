@@ -4,7 +4,7 @@ This repo serves as a template for independent SDS 237 portfolios. It contains t
 
 ## License
 
-Please see [license](https://github.com/SDS-237-Data-Ethnography-spring-2022/portfolio/blob/main/LICENSE) file for details.
+Please see [license](https://github.com/SDS-237-Data-Ethnography-spring-22/portfolio/blob/main/LICENSE) file for details.
 
 ## Questions
 
