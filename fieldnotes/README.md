@@ -1,4 +1,6 @@
-# Field Journal Assignment
+# Field Journal Assignment 
+
+> At least 4 field journals should be completed by their respective due dates.
 
 ## About
 
@@ -19,6 +21,19 @@ Your response should be recorded under the appropriate heading in the field-jour
 
 1. Be sure to fill out all relevant metadata for your entry. 
 2. Be sure to use Markdown syntax to **bold** the *Knowledge and Understanding* concept you engage in your write-up. 
+3. If you wish to add images to your write-up, you may include them in the img folder and then reference them directly through R Markdown. 
+
+## Due Dates
+
+> Remember that you only need to complete four entries, and you may select which four you complete. 
+
+| Entry           | Due Date          |
+|-----------------|-------------------|
+| Journal Entry 1 | February 16, 2022 |
+| Journal Entry 2 | March 2, 2022     |
+| Journal Entry 3 | March 23, 2022    |
+| Journal Entry 4 | April 6, 2022     |
+| Journal Entry 5 | April 20, 2022    |
 
 ## Guiding Prompts
 
