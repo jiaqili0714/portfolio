@@ -4,7 +4,7 @@
 
 ## About
 
-Ethnographers keep field notebooks to thickly document what they observe in a social environment. Typically field notes will describe a physical environment and the participants in that environment (including appearances, roles, behaviors, moods, interactions, conversations, etc.). Field notes will also interpret what was observed, considering how the empirical material affirms, contests, or transforms how we understand cultural phenomena. In data ethnography, the social environment under consideration can be anywhere data is produced, applied, presented, or talked about. This assignment is about paying attention to the numbers (and other forms of data) that inhabit daily life.
+Ethnographers keep field journals to thickly document what they observe in social environments. Typically field notes will describe a physical environment and the participants in that environment (including appearances, roles, behaviors, moods, interactions, conversations, etc.). Field notes will also interpret what was observed, considering how the empirical material affirms, contests, or transforms how we understand cultural phenomena. In data ethnography, the social environment under consideration can be anywhere data is produced, applied, presented, or talked about. This assignment is about paying attention to the numbers (and other forms of data) that inhabit daily life and practicing cultural interpretation.
 
 ## Learning Objectives
 
