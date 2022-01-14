@@ -31,12 +31,12 @@ Finally, you should review the documentation for at least one tabular dataset th
 
 ## Write-up
 
-Following your analysis, you will write-up a 500-750 word memo presenting an argument about this infrastructure, the contexts that gave rise to its creation, the cultural stories it conveys through its structure and organization, and how these issues implicate the values reported in the dataset you identified. 
+Following your analysis, you will write-up a 500-750 word memo presenting an argument about this infrastructure, the contexts that gave rise to its creation, the cultural stories it conveys through its structure and organization, and how these issues implicate the values reported in the dataset you identified.  Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up.
 
 ## Criteria for completion
 
-* Student submits an annotated bibliography with at least 5 relevant entries. Each entry includes a full citation and 2-3 summary sentences. 
-* Student writes a 500-750 word memo describing and interpreting the data infrastructure. All sources are properly cited in the write-up.
+* Student composes an annotated bibliography with at least 5 relevant entries in infrastructural-analysis-annotated-bib.Rmd. Each entry includes a full citation and 2-3 summary sentences. 
+* Student writes a 500-750 word memo describing and interpreting the data infrastructure in infrastructural-analysis-writeup.Rmd. All sources are properly cited in the write-up.
 
 
 

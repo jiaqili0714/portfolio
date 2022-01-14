@@ -22,18 +22,13 @@ For your first mini-project assignment, you should select one of the following o
 ### Option 3: [Discourse Analysis](discourse-analysis)
 ### Option 4: [Participant Observation](participant-observation)
 
-Each of these assignments involves collecting some ethnographic data, interpreting the data, determining a central point that the data supports, and then writing it up in a memo that draws from your data to support that point. This means that mini-project write-ups will be more polished than your fieldnotes (i.e. you don't need to identify and support a central point or argument in your fieldnotes). Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up.
+Each of these assignments involves collecting some ethnographic data, interpreting the data, determining a central point that the data supports, and then writing it up in a memo that draws from your data to support that point. This means that mini-project write-ups will be more polished than your fieldnotes (i.e. you don't need to identify and support a central point or argument in your fieldnotes).
 
 ### Revision
 
 After receiving feedback from me on both submissions, you will have an opportunity to revise one of your submissions. You will revise this submission in the same Markdown document you had previously been working in, and you will push your changes to this GitHub repo. In additional 
 
 First, you should read the attached document on how to create a revision plan. Then you should begin writing a revision plan, following the template in the Markdown document in this directory. Finally, revise your MP following your revision plan. Remember that grammar, spelling, and punctuation concerns should not be included in a revision plan. Those concerns are addressed in a proofreading stage, not a revising stage.
-
-TO-DO: MOVE BELOW TO MARKDOWN TEMPLATE
-Summarize in your own words the most recurring comments you received from me and from your peers as a series of bullet points. You should list at least three bullet points, and they should be written in complete, descriptive sentences.
-Highlight the comments you plan to address. Add a sub-bullet point below each comment you plan to address, indicating specifically how you will address that comment in your revision. For comments you don’t plan to address, include a sub-bullet point indicating why you don’t plan to address it. You should be able to provide appropriate rationale for why you don't plan to address certain feedback. It's not enough to say that you can't fit something within the word limit. 
-Finally, revise your MP following your revision plan. Remember that grammar, spelling, and punctuation concerns should not be included in a revision plan. Those concerns are addressed in a proofreading stage, not a revising stage.
 
 #### Criteria for Completion
 

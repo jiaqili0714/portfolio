@@ -6,9 +6,9 @@ You may attend the event either in-person of virtually. Throughout the event you
 
 ## Write-up
 
-Following your observation, you will write-up a 500-750 word memo describing the event and offering a qualitative interpretive analysis of how the event illustrates something about the culture of data advocacy, discourse, creation, or use. 
+Following your observation, you will write-up a 500-750 word memo describing the event and offering a qualitative interpretive analysis of how the event illustrates something about the culture of data advocacy, discourse, creation, or use.  Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up.
 
 ## Criteria for completion
 
-* Student submits at least 6 double-spaced typed pages of field notes taken during the event
-* Student writes a 500-750 word memo describing and interpreting the event. 
+* Student submits the equivalent of about 6 double-spaced typed pages of field notes taken during the event in participant-observation-fieldnotes.Rmd.
+* Student writes a 500-750 word memo describing and interpreting the event in participant-observation-writeup.Rmd. 

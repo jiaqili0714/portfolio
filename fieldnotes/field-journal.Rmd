@@ -5,6 +5,8 @@ date: "Last updated on `r Sys.Date()`"
 output: pdf_document
 ---
 
+> Instructions: For each journal entry, first fill out the metadata for that entry by entering your name, the date you observed a data environment, the date you wrote up your entry, and the location of the environment you observed in between the quotation marks of the associated code snippet. Be sure to enter the date as month/day/year. Below this code snippet, write your journal entry. Once your done, knit the document and push your changes to GitHub.
+
 ```{r libraries, include = FALSE}
 library(lubridate)
 ```
