@@ -8,11 +8,11 @@ Following the framework here, you should examine how data is talked about in the
 
 ## Write-up
 
-Following your analysis, you will write-up a 750-1000 word memo detailing the discourse conveyed in the talk(s). Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up. If you choose option 2, you should offer some comparison and/or synthesis of the discourse across the talks.
+Following your analysis, you will write-up a 750-1000 word memo in `discourse-analysis-writeup.Rmd` detailing the discourse conveyed in the talk(s). Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up. If you choose option 2, you should offer some comparison and/or synthesis of the discourse across the talks.
 
 ## Criteria for completion
 
-* Student writes a 750-1000 word memo detailing the discourse of the talk in discourse-analysis-writeup.Rmd. Direct quotations should be referenced throughout (and cited), but do not count towards the overall word count. 
+* Student writes a 750-1000 word memo detailing the discourse of the talk in `discourse-analysis-writeup.Rmd`. Direct quotations should be referenced throughout (and cited), but do not count towards the overall word count. 
 
 
 

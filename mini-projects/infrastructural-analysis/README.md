@@ -23,7 +23,7 @@ If you select a system not on this list, please DM me on Slack for approval befo
 
 ## Analyzing the data infrastructure
 
-You should identify five reputable sources that describe something about the history of this data infrastructure. Create an annotated bibliography that provides a full citation for the source and includes 2-3 sentences detailing what you learn from that source. 
+You should identify five reputable sources that describe something about the history of this data infrastructure. Create an annotated bibliography in `infrastructural-analysis-annotated-bib.Rmd` that provides a full citation for the source and includes 2-3 sentences detailing what you learn from that source. 
 
 Then you should navigate through the documentation for the infrastructure, reflecting on how concepts are organized and sub-organized, along with notable absences. What cultural stories does this infrastructure convey? How does the infrastructure reflect the socio-cultural conditions that when into its creation?
 
@@ -31,12 +31,12 @@ Finally, you should review the documentation for at least one tabular dataset th
 
 ## Write-up
 
-Following your analysis, you will write-up a 500-750 word memo presenting an argument about this infrastructure, the contexts that gave rise to its creation, the cultural stories it conveys through its structure and organization, and how these issues implicate the values reported in the dataset you identified.  Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up.
+Following your analysis, you will write-up a 500-750 word memo in `infrastructural-analysis-writeup.Rmd` presenting an argument about this infrastructure, the contexts that gave rise to its creation, the cultural stories it conveys through its structure and organization, and how these issues implicate the values reported in the dataset you identified.  Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up.
 
 ## Criteria for completion
 
-* Student composes an annotated bibliography with at least 5 relevant entries in infrastructural-analysis-annotated-bib.Rmd. Each entry includes a full citation and 2-3 summary sentences. 
-* Student writes a 500-750 word memo describing and interpreting the data infrastructure in infrastructural-analysis-writeup.Rmd. All sources are properly cited in the write-up.
+* Student composes an annotated bibliography with at least 5 relevant entries in `infrastructural-analysis-annotated-bib.Rmd`. Each entry includes a full citation and 2-3 summary sentences. 
+* Student writes a 500-750 word memo describing and interpreting the data infrastructure in `infrastructural-analysis-writeup.Rmd`. All sources are properly cited in the write-up.
 
 
 

@@ -29,7 +29,7 @@ Each of these assignments involves collecting some ethnographic data, interpreti
 After receiving feedback from me on both submissions, you will have an opportunity to revise one of your submissions. This assignment has three steps:
 
 1. Read [this document](https://lsa.umich.edu/content/dam/sweetland-assets/sweetland-documents/teachingresources/SequencingandScaffoldingAssignments/Supplement3_HowtoWriteaRevisionPlan.pdf) on creating a revision plan. 
-2. Open and follow the instructions in revision-plan.Rmd.
+2. Open and follow the instructions in `revision-plan.Rmd`.
 3. Revise your submission in the same Markdown document you had previously been working in based on what you outlined in your revision plan. Push your changes to GitHub. 
 
 > Remember that grammar, spelling, and punctuation concerns should not be included in a revision plan. Those concerns are addressed in a proofreading stage, not a revising stage.

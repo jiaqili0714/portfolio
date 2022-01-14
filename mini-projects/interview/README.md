@@ -8,7 +8,7 @@ If you choose this assignment, it will be your responsibility to identify a data
 
 ## Preparing for the interview
 
-You should write up 10 open-ended questions in preparation for the interview. While you won't be able to cover everything in 30 minutes, you may decide to focus on asking questions that get at one of the following issues: 
+You should write up 10 open-ended questions in `interview-questions.Rmd` in preparation for the interview. While you won't be able to cover everything in 30 minutes, you may decide to focus on asking questions that get at one of the following issues: 
 
 * pathways into data work and how data expertise develops, 
 * how ideas about the role, significance, and representativeness of data form,
@@ -23,7 +23,7 @@ Ask the interviewee if they are comfortable with you recording the conversation.
 
 ## Write-up
 
-Following your interview, you will write-up a 500-750 word memo describing and interpreting what was discussed throughout the conversation. Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up.
+Following your interview, you will write-up a 500-750 word memo in `interview-writeup.Rmd` describing and interpreting what was discussed throughout the conversation. Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up.
 
 ## Criteria for completion
 
