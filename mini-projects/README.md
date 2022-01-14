@@ -26,9 +26,13 @@ Each of these assignments involves collecting some ethnographic data, interpreti
 
 ### Revision
 
-After receiving feedback from me on both submissions, you will have an opportunity to revise one of your submissions. You will revise this submission in the same Markdown document you had previously been working in, and you will push your changes to this GitHub repo. In additional 
+After receiving feedback from me on both submissions, you will have an opportunity to revise one of your submissions. This assignment has three steps:
 
-First, you should read the attached document on how to create a revision plan. Then you should begin writing a revision plan, following the template in the Markdown document in this directory. Finally, revise your MP following your revision plan. Remember that grammar, spelling, and punctuation concerns should not be included in a revision plan. Those concerns are addressed in a proofreading stage, not a revising stage.
+1. Read this document on creating a revision plan. 
+2. Open and follow the instructions in revision-plan.Rmd.
+3. Revision your submission in the same Markdown document you had previously been working in based on what you outlined in your revision plan. Push your changes to GitHub. 
+
+> Remember that grammar, spelling, and punctuation concerns should not be included in a revision plan. Those concerns are addressed in a proofreading stage, not a revising stage.
 
 #### Criteria for Completion
 
