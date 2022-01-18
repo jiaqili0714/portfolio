@@ -1,5 +1,5 @@
 # Community Labor Log
-
+ 
 ## About  
 This course has many components to navigate.  In order to track all of the assignments, you may choose to use the [Labor Log](https://docs.google.com/spreadsheets/d/1ZaRThi7Hs6ZSQXpBaWGveCt74S6xzvjr7XO5tG3Gvgw/edit?usp=sharing) on Google Docs.  Instructions for how to use it are [here](https://docs.google.com/document/d/1YQXvS03YlkrWim4W4XSsF5lHo623tL7iVkN4eMGieUc/edit?usp=sharing).  To report your Community Labor, you need to use the Community Labor Log here on GitHub.
 
