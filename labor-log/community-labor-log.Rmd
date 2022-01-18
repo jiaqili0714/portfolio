@@ -54,7 +54,7 @@ my_labor <- tibble(Labor = character(), Date = character()) %>%
                             TRUE ~ 0)) %>%
   ##Removing the hyperlink indicators from non-linked Slack Posts
   mutate(Labor = ifelse(grepl("slack.com", Labor), Labor, str_replace_all(Labor, "[[:punct:]]", ""))) %>% 
-  adorn_totals(where = "row", fill = "", na.rm = TRUE, name = "Total Points", Points)   ##Make a total column
+  adorn_totals(where = "row", fill = "", na.rm = TRUE, name = "Total Points", Points)   ##Make a total row
 ```
 
 ```{r making your table, echo = FALSE}
