@@ -19,9 +19,8 @@ library(janitor) #For calculating Total Points
 
 ```
 
-## Community Labor Table
-
-Website if they want to customize their table: [KableExtra's GitHub](https://haozhu233.github.io/kableExtra/awesome_table_in_html.html)
+## Community Labor Table  
+If you would like to customize your Community Labor table, go to [KableExtra's GitHub Documentation](https://haozhu233.github.io/kableExtra/awesome_table_in_html.html)!
 
 ```{r assembling data, include = FALSE}
 ## Make your Dataset 
