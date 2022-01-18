@@ -9,7 +9,7 @@ date: Last Updated On `r Sys.Date()`
 
 ```{r packages, echo = FALSE, message = FALSE}
 ##Install Kable Extra if you need
-##install.packages("Kable Extra")
+##install.packages("kableExtra")
 ##install.packages("janitor")
 
 library(tidyverse) #For Kable
