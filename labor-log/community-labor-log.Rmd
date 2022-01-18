@@ -28,9 +28,9 @@ Website if they want to customize their table: [KableExtra's GitHub](https://hao
 
 my_labor <- tibble(Labor = character(), Date = character()) %>%
   ##Adding Labor
-  add_row(Labor = "[Slack Engagement 1](https://smi-sds-237-01-202201.slack.com/archives/C02ASV149H9/p1636417090008700)", Date = "1/31") %>%
-  add_row(Labor = "[Slack Engagement 2]()", Date = "2/7") %>%
-  add_row(Labor = "[Slack Engagement 3](https://smi-sds-237-01-202201.slack.com/archives/C02ASV149H9/p1636417090008700)", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 1]()", Date = "Your Completion Date") %>%
+  add_row(Labor = "[Slack Engagement 2]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 3]()", Date = NA) %>%
   add_row(Labor = "[Slack Engagement 4]()", Date = NA) %>%
   add_row(Labor = "[Slack Engagement 5]()", Date = NA) %>%
   add_row(Labor = "[Slack Engagement 6]()", Date = NA) %>%
@@ -44,9 +44,9 @@ my_labor <- tibble(Labor = character(), Date = character()) %>%
   add_row(Labor = "[Slack Engagement 14]()", Date = NA) %>%
   add_row(Labor = "[Slack Engagement 15]()", Date = NA) %>%
   add_row(Labor = "[Slack Engagement 16]()", Date = NA) %>%
-  add_row(Labor = "Group Evaluations", Date = "3/10") %>%
+  add_row(Labor = "Group Evaluations", Date = NA) %>%
   add_row(Labor = "Peer Review Workshop 1", Date = NA) %>%
-  add_row(Labor = "Peer Review Workshop 2", Date = "4/5") %>%
+  add_row(Labor = "Peer Review Workshop 2", Date = NA) %>%
   add_row(Labor = "Peer Review Workshop 3", Date = NA) %>%
   ##Calculating points based on what was recorded 
   mutate(Points = case_when(grepl("slack.com", Labor) & !is.na(Date) ~ 1,
