@@ -1,0 +1,66 @@
+---
+title: "[Your Name's] Community Labor Log"
+author: "Your Name Here"
+output: 
+  html_document:
+    theme: simplex
+date: Last Updated On `r Sys.Date()`
+---
+
+ 
+```{r packages, echo = FALSE, message = FALSE}
+##Install Kable Extra if you need
+##install.packages("kableExtra")
+##install.packages("janitor")
+
+library(tidyverse) #For Kable
+library(kableExtra) #For making the table pretty
+library(janitor) #For calculating Total Points
+
+```
+
+## Community Labor Table  
+If you would like to customize your Community Labor table, go to [KableExtra's GitHub Documentation](https://haozhu233.github.io/kableExtra/awesome_table_in_html.html)!
+
+```{r assembling data, include = FALSE}
+## Make your Dataset 
+
+my_labor <- tibble(Labor = character(), Date = character()) %>%
+  ##Adding Labor
+  add_row(Labor = "[Slack Engagement 1]()", Date = "Your Completion Date") %>%
+  add_row(Labor = "[Slack Engagement 2]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 3]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 4]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 5]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 6]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 7]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 8]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 9]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 10]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 11]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 12]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 13]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 14]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 15]()", Date = NA) %>%
+  add_row(Labor = "[Slack Engagement 16]()", Date = NA) %>%
+  add_row(Labor = "Group Evaluations", Date = NA) %>%
+  add_row(Labor = "Peer Review Workshop 1", Date = NA) %>%
+  add_row(Labor = "Peer Review Workshop 2", Date = NA) %>%
+  add_row(Labor = "Peer Review Workshop 3", Date = NA) %>%
+  ##Calculating points based on what was recorded 
+  mutate(Points = case_when(grepl("slack.com", Labor) & !is.na(Date) ~ 1,
+                            Labor == "Group Evaluations" & !is.na(Date) ~ 2,
+                            grepl("Peer", Labor) & !is.na(Date) ~ 2,
+                            TRUE ~ 0)) %>%
+  ##Removing the hyperlink indicators from non-linked Slack Posts
+  mutate(Labor = ifelse(grepl("slack.com", Labor), Labor, str_replace_all(Labor, "[[:punct:]]", ""))) %>% 
+  adorn_totals(where = "row", fill = "", na.rm = TRUE, name = "Total Points", Points)   ##Make a total row
+```
+
+```{r making your table, echo = FALSE}
+kable(my_labor) %>%
+  kable_paper("hover", full_width = F, position = "left") %>% ##Aesthetics
+  row_spec(21, bold = T, color = "white", background = "#D7261E") ##highlight onto total row
+
+```
+
