@@ -88,6 +88,15 @@ Section 3 of [this Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/0
 
 Make THIS TEXT bold. 
 
+### Markdown and Line Spacing 
+
+Markdown has a couple quirks surrounding linespacing once the document is knit.  If we include an empty line between new paragraphs, they will be separated in our knitted documents.
+If we include no new lines and no spaces at the end of the previous line they will merge together.  
+If we include no new lines **and** 2 spaces following the end of previous line, the two paragraphs will be on separate lines but have no blank lines between them.  
+  Tabs at the start of the line do nothing.  
+
+In short, we need to put line breaks between every paragraph to make sure its readable when knit.  
+
 ## Code chunks
 
 R Markdown documents can include chunks of code and their output. R code chunks are designated by starting a line with '```{r}' and ending a line with '``` '. See below.
@@ -110,7 +119,7 @@ sum
 
 Section 5 of [this Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) lists other options we can set for code chunks.
 
-> Checkpoint 4: Add a code chucnk below. Copy and paste the following code and place it in the code chunk: plot(cars) Referencing the linked cheatsheet, set the figure width to 3 and the figure height to 3. (You will need to separate these options with a comma.) 'Knit' the document to see how your plot renders in the document.
+> Checkpoint 4: Add a code chunk below. Copy and paste the following code and place it in the code chunk: plot(cars) Referencing the linked cheatsheet, set the figure width to 3 and the figure height to 3. (You will need to separate these options with a comma.) 'Knit' the document to see how your plot renders in the document.
 
 DELETE THIS TEXT AND ADD CODE CHUNK HERE
 
