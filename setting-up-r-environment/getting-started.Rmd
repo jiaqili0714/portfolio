@@ -9,11 +9,17 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Lab documents will be written in R Markdown. This is an R Markdown document. There are three components of this document that we will pay attention to in this file:
+Follow steps 1-122 in `README.html` before beginning this document.  All of your assignments will be written in R Markdown. This is an R Markdown document. There are three components of this document that we will pay attention to in this file:
 
 1. the YAML header at the top of the document
 2. the Markdown syntax used throughout the document
 3. the executable code blocks interspersed throughout this document
+
+## RStudio setup  
+
+You can change your own RStudio set-up to your comfort.  In particular, the colors of the text, background, highlight, can be customized by changing the theme of your RStudio.  It's like shifting certain websites or applications from light mode to dark mode.
+
+> Checkpoint 0: Open RStudio Preferences -> Appearance, then apply an Editor Theme or other customizations you like the look of!  
 
 ## YAML Header
 
@@ -21,7 +27,7 @@ R Markdown documents begin with a YAML header. This is the text that you see bet
 
 > Checkpoint 1: Add your name as the author of this document by editing the YAML header where it says to ADD YOUR NAME. Be sure to keep the quotation marks around your name.
 
-> After successfully completing checkpoint 1, commit your code (see instructions in Readme).
+> After successfully completing checkpoint 1, commit your code (see instructions in Readme step 13).
 
 For this research, we will sometimes publish Markdown files as HTML documents (web documents) and sometimes as PDF documents. To compile this .Rmd file as one of these documents, we need to 'knit' the file. You can knit this document, but clicking the 'Knit' button in the taskbar above. This document is currently set to output as an HTML file. We know this because in the YAML header, the 'output' key is followed by the value 'html_document'.
 
