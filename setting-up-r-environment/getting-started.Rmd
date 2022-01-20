@@ -78,13 +78,13 @@ If we want to add bullets to an R Markdown file, we can add asterisks (*) and a 
 
 If we want to add a hyper-link to an R Markdown file, we can place the text we want hyper-linked in brackets '[]' and the link in parentheses '()' immediately following the bracketed text:
 
-[This is a link to our GitHub organization.](https://github.com/Critical-Data-Analysis-Group)
+[This is a link to our GitHub organization.](https://github.com/SDS-237-Data-Ethnography-Spring-22)
 
 Section 3 of [this Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) provides a more comprehensive list of syntax rules for R Markdown. 
 
-> Checkpoint 3: Format the capitalized text immediately below this set of instructions as **bold** text. Then knit the document to check how the text gets displayed in your published document. 
+> Checkpoint 4: Format the capitalized text immediately below this set of instructions as **bold** text. Then knit the document to check how the text gets displayed in your published document. 
 
-> After successfully completing checkpoint 3, commit your code again.
+> After successfully completing checkpoint 4, commit your code again.
 
 Make THIS TEXT bold. 
 
