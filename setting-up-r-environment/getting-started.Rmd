@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Follow steps 1-122 in `README.html` before beginning this document.  All of your assignments will be written in R Markdown. This is an R Markdown document. There are three components of this document that we will pay attention to in this file:
+Follow steps 1-12 in `README.html` before beginning this document.  All of your assignments will be written in R Markdown. This is an R Markdown document. There are three components of this document that we will pay attention to in this file:
 
 1. the YAML header at the top of the document
 2. the Markdown syntax used throughout the document
@@ -29,12 +29,29 @@ R Markdown documents begin with a YAML header. This is the text that you see bet
 
 > After successfully completing checkpoint 1, commit your code (see instructions in Readme step 13).
 
-For this research, we will sometimes publish Markdown files as HTML documents (web documents) and sometimes as PDF documents. To compile this .Rmd file as one of these documents, we need to 'knit' the file. You can knit this document, but clicking the 'Knit' button in the taskbar above. This document is currently set to output as an HTML file. We know this because in the YAML header, the 'output' key is followed by the value 'html_document'.
+For this course, we will sometimes publish Markdown files as HTML documents (web documents) and sometimes as PDF documents. To compile this .Rmd file as one of these documents, we need to 'knit' the file. You can knit this document, but clicking the 'Knit' button in the taskbar above. This document is currently set to output as an HTML file. We know this because in the YAML header, the 'output' key is followed by the value 'html_document'.
 
 > Checkpoint 2: Click 'Knit' in the taskbar above. A new window will open with this document formatted as an HTML document. Change the output from html_document to pdf_document. Click 'Knit' again. Notice how the output changes.
 
 > After successfully completing checkpoint 2, commit your code again.
 
+When we're making certain types of changes (e.g. table of contents, section numbering, themes, etc) we need to change the YAML formatting from:
+
+`output: pdf_document`  
+
+To:
+
+`output: `  
+  `pdf_document:`  
+      `(more options here)`  
+      `(sometimes more here too)`  
+
+Making sure to include the indents.  
+
+> Checkpoint 3: Add a table of contents (toc) to your document through YAML setting `toc: true`. Knit your document to PDF, then to HTML. Notice how the same setting can be used for both document types.  Optionally, add `toc_float: true` to your HTML.
+
+> After successfully completing checkpoint 3, commit your code again.
+    
 ## Markdown
 
 Markdown is a mark-up language - or a computer language that we can use to communicate to a digital system how we want text and images displayed when it is published. When you type text into software like Microsoft Word, you can change the size and font, add bullets, and insert images by clicking on buttons in the text editor, and the changes are immediately visible. Markdown is different. To format and style text in Markdown, we use certain designated symbols and syntax.
