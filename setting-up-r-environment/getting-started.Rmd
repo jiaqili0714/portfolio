@@ -9,11 +9,23 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+> TO DO, FINISH GITHUB SECTION, ADD SECTION ABOUT BIBLOGRAPHY ALONG WITH A .bib FILE WHICH THEYRE GOING TO EDIT THEMSELVES
+
 Follow steps 1-12 in `README.html` before beginning this document.  All of your assignments will be written in R Markdown. This is an R Markdown document. There are three components of this document that we will pay attention to in this file:
 
 1. the YAML header at the top of the document
 2. the Markdown syntax used throughout the document
 3. the executable code blocks interspersed throughout this document
+
+## Git and GitHub 
+
+Git, the software which you just set up in RStudio, is software which helps with version control and collaboration.  GitHub is a public website that makes working with Git and creating joint projects (repositories or "repos") simpler.  Our course has two repos for you to use--the portfolio and the final project.  Your portfolio repo will be shared with me, but otherwise remain private.  Your final project repo will be shared among your group so all of you will be able to work on the same documents.  
+
+Within a repo, you can make your own Branch.  A branch is a version of your repo which you can change without changing the original files.  Branches are local (on your own device) and remote (on a server).  By making a "commit" to your branch, you save its current state locally.  Its best practice to make many commits as you edit your documents, usually after a discrete section has been completed.  When you "Push" your commits (usually many at once), you are "Pushing" your new code or text onto the remote version of your branch.  When you're in a shared repo, others would then be able to open your branch and see its current state.  In other words, you synced your document with a version of the branch that everyone can see.  
+
+If they already have a version of the branch local to them, however, they need to make sure they are also synced to the remote version. 
+
+> Finish this section
 
 ## RStudio setup  
 
@@ -54,6 +66,7 @@ Making sure to include the indents.
     
 If you would like to know more about customizing your HTMLs and PDFs with the YAML headers, chapters 3.1 and 3.3 of Xie, Allaire, and Grolemund's free online book "R Markdown: The Definitive Guide" go into great detail with examples. 
 
+### Bibliographies 
 
 ## Markdown
 
