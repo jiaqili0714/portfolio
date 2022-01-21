@@ -139,11 +139,42 @@ RStudio comes with standard data, including the `cars` dataset we used for our p
 
 > After successfully completing checkpoint 6, commit your code again.
 
+DELETE THIS TEXT AND ADD CODE CHUNK HERE
+
+## Tidyverse  
+
+Tidyverse is a series of packages produced by RStudio designed to produce easy ways to handle and wrangle data.  To use the commands provided by the Tidyverse, you need to install it, then load the package in.  
+
+```{r}
+library(tidyverse)
+```
+
+Anytime we use a package for additional commands, you'll need to load it in with `library(package name)` and sometimes downlaod it first with `install.package("package name")`.  The Tidyverse introduces the key character, `%>%`, called a pipe.  A pipe strings commands together.  It's analogous to an assembly line; person A picks up a box, changes it, hands the adjusted box it to person B. Person B changes it again, hands it off, etc.  The people are the commands, the box is the object you're creating, and the act of handing the box between the people is what the pipe does.  
+
+> Checkpoint 7: Replace "YOUR DATASET NAME" with the name of your cars dataset.  Remove the #'s. What did the mutate function do?  Hint: If you're unsure what a function does, typing ?Function into the Console at the bottom of the screen will pull up its Help page.  
+
+> After successfully completing checkpoint 7, commit your code again.
+
+
+```{r}
+# YOUR DATASET NAME <- YOUR DATASET NAME %>%
+  # mutate(dist_meters = dist * 0.3048)
+
+# YOUR DATASET NAME
+```
+
+> Checkpoint 8: Make a code chunk below.  With the Tidyverse command `filter`, find only the cars that took longer than 20 meters to stop.  There should be 10.  (Use ?filter and scroll to the bottom to see examples if you need. Note that the examples all say the dataset as the first item, but because of piping, you don't need to).  
+
+> After successfully completing checkpoint 8, commit your code again.
+
+DELETE THIS TEXT AND ADD CODE CHUNK HERE
+
+
 ## Coding going forwards  
 
 In most situations in this course, you will be provided with templates to base your code on.  If you are unfamiliar with programming in R or the R Tidyverse, and you would like additional support, please let me know by specifying below. 
 
-> Checkpoint 7: If you would like additional help with R, replace this text.  
+> Checkpoint 9: If you would like additional help with R, replace this text.  
 
 > Stage, commit, and push your code following instructions on GitHub.
 
