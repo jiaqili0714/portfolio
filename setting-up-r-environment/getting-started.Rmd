@@ -3,6 +3,7 @@ title: "Getting Started"
 author: "ADD YOUR NAME"
 date: "8/19/2021"
 output: html_document
+bibliography: setting-up.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -71,6 +72,16 @@ Making sure to include the indents.
 If you would like to know more about customizing your HTMLs and PDFs with the YAML headers, chapters 3.1 and 3.3 of Xie, Allaire, and Grolemund's free online book "R Markdown: The Definitive Guide" go into great detail with examples. 
 
 ### Bibliographies 
+
+To add citations to your R Markdowns, you can either manually type add them, or you can add a BibTex file (.bib) and use that to automatically insert citations.  BibTex files can be exported from citation managers like Zotero, or you can even use cites like Google Scholar to retrieve a citation in BibTex formatting then paste it into your BibTex file. Empty .bib's have already been provided in your Mini Project folders.  Open the `setting-up.bib` file by clicking it in the Files menu on the bottom right.  There should be one reference in it already
+
+To use a .bib file for citations, we need to add `bibliography: FILE_NAME.bib` to our YAML header.  Then, where we want an in-text citation, we need to say @KEY.  The Key is the very first string of characters following the opening bracket at the top of a reference.  For example, @xie2020r . When you knit the document, that will be an in-text citation.
+
+> Checkpoing 4: Go to google scholar, search for "R Markdown: The Definitive Guide", copy the BibTex citation and paste it into setting-up.bib.  Then, add an in-text citation below. Knit your document to make sure it shows up.  
+
+> After successfully completing checkpoint 4, commit your code again. Additionally, commit your setting-up.bib file.
+
+DELETE THIS TEXT AND ADD AN IN-TEXT CITATION 
 
 ## Markdown
 
@@ -195,6 +206,6 @@ In most situations in this course, you will be provided with templates to base y
 
 > Stage, commit, and push your code following instructions on GitHub.
 
-
+## References
 
 
