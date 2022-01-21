@@ -135,7 +135,9 @@ Notice how the object `sum` showed up in our Environment tab on the top right.  
 
 RStudio comes with standard data, including the `cars` dataset we used for our plot.  It's not in our environment because we haven't saved it with `<-`.  
 
-> Checkpoint 6: Make a code chunk below, choose a name for the cars dataset, then save `cars` to it by using `<- cars`
+> Checkpoint 6: Make a code chunk below, choose a name for the cars dataset, then save `cars` to it by using `<- cars`.  Note how after doing so, it will show up in your environment, and if you click on it, you can see the dataset itself.
+
+> After successfully completing checkpoint 6, commit your code again.
 
 ## Tidyverse  
 
