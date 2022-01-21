@@ -3,14 +3,11 @@ title: "Getting Started"
 author: "ADD YOUR NAME"
 date: "8/19/2021"
 output: html_document
-bibliography: setting-up.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-> TO DO, FINISH GITHUB SECTION, ADD SECTION ABOUT BIBLOGRAPHY ALONG WITH A .bib FILE WHICH THEYRE GOING TO EDIT THEMSELVES
 
 Follow steps 1-12 in `README.html` before beginning this document.  All of your assignments will be written in R Markdown. This is an R Markdown document. There are three components of this document that we will pay attention to in this file:
 
@@ -69,13 +66,13 @@ Making sure to include the indents.
 
 > After successfully completing checkpoint 3, commit your code again.
     
-If you would like to know more about customizing your HTMLs and PDFs with the YAML headers, chapters 3.1 and 3.3 of Xie, Allaire, and Grolemund's free online book "R Markdown: The Definitive Guide" go into great detail with examples. 
+If you would like to know more about customizing HTMLs and PDFs with the YAML headers, chapters 3.1 and 3.3 of Xie, Allaire, and Grolemund's free online book "R Markdown: The Definitive Guide" go into great detail with examples. 
 
 ### Bibliographies 
 
-To add citations to your R Markdowns, you can either manually type add them, or you can add a BibTex file (.bib) and use that to automatically insert citations.  BibTex files can be exported from citation managers like Zotero, or you can even use cites like Google Scholar to retrieve a citation in BibTex formatting then paste it into your BibTex file. Empty .bib's have already been provided in your Mini Project folders.  Open the `setting-up.bib` file by clicking it in the Files menu on the bottom right.  There should be one reference in it already
+To add citations to R Markdowns, we can either manually type add them, or we can add a BibTex file (.bib) and use that to automatically insert citations.  BibTex files can be exported from citation managers like Zotero, or we can even use websites like Google Scholar to retrieve a citation in BibTex formatting then paste it into your BibTex file. Empty .bib's have already been provided in your Mini Project folders.  Open the `setting-up.bib` file by clicking it in the Files menu on the bottom right.  There should be one reference in it already
 
-To use a .bib file for citations, we need to add `bibliography: FILE_NAME.bib` to our YAML header.  Then, where we want an in-text citation, we need to say @KEY.  The Key is the very first string of characters following the opening bracket at the top of a reference.  For example, @xie2020r . When you knit the document, that will be an in-text citation.
+To use a .bib file for citations, we need to add `bibliography: FILE_NAME.bib` to our YAML header.  Then, where we want an in-text citation, we need to say @KEY.  The Key is the very first string of characters following the opening bracket at the top of a reference.  For example, @xie2020r . When you knit the document, there will be an in-text citation in its place.
 
 > Checkpoing 4: Go to google scholar, search for "R Markdown: The Definitive Guide", copy the BibTex citation and paste it into setting-up.bib.  Then, add an in-text citation below. Knit your document to make sure it shows up.  
 
@@ -117,9 +114,9 @@ We can images in a similar way, but include an ! beforehand.
 
 Section 3 of [this Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) provides a more comprehensive list of syntax rules for R Markdown. 
 
-> Checkpoint 4: Format the capitalized text immediately below this set of instructions as **bold** text. Then knit the document to check how the text gets displayed in your published document. 
+> Checkpoint 5: Format the capitalized text immediately below this set of instructions as **bold** text. Then knit the document to check how the text gets displayed in your published document. 
 
-> After successfully completing checkpoint 4, commit your code again.
+> After successfully completing checkpoint 5, commit your code again.
 
 Make THIS TEXT bold. 
 
@@ -152,9 +149,9 @@ sum
 
 Section 5 of [this Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) lists other options we can set for code chunks.
 
-> Checkpoint 5: Add a code chunk below. Copy and paste the following code and place it in the code chunk: plot(cars) Referencing the linked cheatsheet, set the figure width to 3 and the figure height to 3. (You will need to separate these options with a comma.) 'Knit' the document to see how your plot renders in the document.
+> Checkpoint 6: Add a code chunk below. Copy and paste the following code and place it in the code chunk: plot(cars) Referencing the linked cheatsheet, set the figure width to 3 and the figure height to 3. (You will need to separate these options with a comma.) 'Knit' the document to see how your plot renders in the document.
 
-> After successfully completing checkpoint 5, commit your code again.
+> After successfully completing checkpoint 6, commit your code again.
 
 DELETE THIS TEXT AND ADD CODE CHUNK HERE
 
@@ -163,9 +160,9 @@ Notice how the object `sum` showed up in our Environment tab on the top right.  
 
 RStudio comes with standard data, including the `cars` dataset we used for our plot.  It's not in our environment because we haven't saved it with `<-`.  
 
-> Checkpoint 6: Make a code chunk below, choose a name for the cars dataset, then save `cars` to it by using `<- cars`.  Note how after doing so, it will show up in your environment, and if you click on it, you can see the dataset itself.
+> Checkpoint 7: Make a code chunk below, choose a name for the cars dataset, then save `cars` to it by using `<- cars`.  Note how after doing so, it will show up in your environment, and if you click on it, you can see the dataset itself.
 
-> After successfully completing checkpoint 6, commit your code again.
+> After successfully completing checkpoint 7, commit your code again.
 
 DELETE THIS TEXT AND ADD CODE CHUNK HERE
 
@@ -179,9 +176,9 @@ library(tidyverse)
 
 Anytime we use a package for additional commands, you'll need to load it in with `library(package name)` and sometimes downlaod it first with `install.package("package name")`.  The Tidyverse introduces the key character, `%>%`, called a pipe.  A pipe strings commands together.  It's analogous to an assembly line; person A picks up a box, changes it, hands the adjusted box it to person B. Person B changes it again, hands it off, etc.  The people are the commands, the box is the object you're creating, and the act of handing the box between the people is what the pipe does.  
 
-> Checkpoint 7: Replace "YOUR DATASET NAME" with the name of your cars dataset.  Remove the #'s. What did the mutate function do?  Hint: If you're unsure what a function does, typing ?Function into the Console at the bottom of the screen will pull up its Help page.  
+> Checkpoint 8: Replace "YOUR DATASET NAME" with the name of your cars dataset.  Delete the #'s and run the code. What did the mutate function do?  Hint: If you're unsure what a function does, typing ?Function into the Console at the bottom of the screen will pull up its Help page.  
 
-> After successfully completing checkpoint 7, commit your code again.
+> After successfully completing checkpoint 8, commit your code again.
 
 
 ```{r}
@@ -191,18 +188,17 @@ Anytime we use a package for additional commands, you'll need to load it in with
 # YOUR DATASET NAME
 ```
 
-> Checkpoint 8: Make a code chunk below.  With the Tidyverse command `filter`, find only the cars that took longer than 20 meters to stop.  There should be 10.  (Use ?filter and scroll to the bottom to see examples if you need. Note that the examples all say the dataset as the first item, but because of piping, you don't need to).  
+> Checkpoint 9: Make a code chunk below.  With the Tidyverse command `filter`, find only the cars that took longer than 20 meters to stop.  There should be 10.  (Use ?filter and scroll to the bottom to see examples if you need. Note that the examples all say the dataset as the first item, but because of piping, you don't need to).  
 
-> After successfully completing checkpoint 8, commit your code again.
+> After successfully completing checkpoint 9, commit your code again.
 
 DELETE THIS TEXT AND ADD CODE CHUNK HERE
-
 
 ## Coding going forwards  
 
 In most situations in this course, you will be provided with templates to base your code on.  If you are unfamiliar with programming in R or the R Tidyverse, and you would like additional support, please let me know by specifying below. 
 
-> Checkpoint 9: If you would like additional help with R, replace this text.  
+> Checkpoint 10: If you would like additional help with R, replace this text.  
 
 > Stage, commit, and push your code following instructions on GitHub.
 
