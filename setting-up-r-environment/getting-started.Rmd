@@ -52,6 +52,9 @@ Making sure to include the indents.
 
 > After successfully completing checkpoint 3, commit your code again.
     
+If you would like to know more about customizing your HTMLs and PDFs with the YAML headers, chapters 3.1 and 3.3 of Xie, Allaire, and Grolemund's free online book "R Markdown: The Definitive Guide" go into great detail with examples. 
+
+
 ## Markdown
 
 Markdown is a mark-up language - or a computer language that we can use to communicate to a digital system how we want text and images displayed when it is published. When you type text into software like Microsoft Word, you can change the size and font, add bullets, and insert images by clicking on buttons in the text editor, and the changes are immediately visible. Markdown is different. To format and style text in Markdown, we use certain designated symbols and syntax.
@@ -78,7 +81,11 @@ If we want to add bullets to an R Markdown file, we can add asterisks (*) and a 
 
 If we want to add a hyper-link to an R Markdown file, we can place the text we want hyper-linked in brackets '[]' and the link in parentheses '()' immediately following the bracketed text:
 
-[This is a link to our GitHub organization.](https://github.com/SDS-237-Data-Ethnography-Spring-22)
+[This is a link to our GitHub organization.](https://github.com/SDS-237-Data-Ethnography-Spring-22) 
+
+We can images in a similar way, but include an ! beforehand. 
+
+![This is our course logo, designed by Zoe Scheffler Fall '21](images/sds237logo.png)
 
 Section 3 of [this Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) provides a more comprehensive list of syntax rules for R Markdown. 
 
@@ -95,7 +102,7 @@ If we include no new lines and no spaces at the end of the previous line they wi
 If we include no new lines **and** 2 spaces following the end of previous line, the two paragraphs will be on separate lines but have no blank lines between them.  
   Tabs at the start of the line do nothing.  
 
-In short, we need to put line breaks between every paragraph to make sure its readable when knit.  
+In short, we need to put line breaks between every paragraph to make sure our document is readable when knit.  
 
 ## Code chunks
 
@@ -107,9 +114,7 @@ sum <- 2 + 2
 sum
 ```
 
-RStudio makes it easy for you to add a code chunk to a document by clicking the green button +C button in the taskbar and clicking R. 
-
-By default when you publish a document with a code chunk, both the code block and the output of the code will be displayed in the document. If you add 'echo = FALSE' between the leading curly brackets of the code chunk (following 'r'), only the output of the code will be displayed. The code that created that output will be hidden. 
+RStudio makes it easy for you to add a code chunk to a document by clicking the green button +C button in the taskbar and clicking R. By default when you publish a document with a code chunk, both the code block and the output of the code will be displayed in the document. If you add 'echo = FALSE' between the leading curly brackets of the code chunk (following 'r'), only the output of the code will be displayed. The code that created that output will be hidden. 
 
 ```{r echo=FALSE}
 # By setting echo=FALSE here, this code block will only display the output of the last code chunk when published
@@ -121,8 +126,22 @@ Section 5 of [this Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/0
 
 > Checkpoint 5: Add a code chunk below. Copy and paste the following code and place it in the code chunk: plot(cars) Referencing the linked cheatsheet, set the figure width to 3 and the figure height to 3. (You will need to separate these options with a comma.) 'Knit' the document to see how your plot renders in the document.
 
+> After successfully completing checkpoint 5, commit your code again.
+
 DELETE THIS TEXT AND ADD CODE CHUNK HERE
 
+
+Notice how the object `sum` showed up in our Environment tab on the top right.  Any new object we make with the assignment symbol `<-` will show there.  If you press the broom icon in the Environment tab, your list of objects will be cleared.  It can be nice to clear your Environment if you have many objects that you aren't using.  Since we have the code to remake `sum`, we don't have to worry if we clear it from the Environment.  
+
+RStudio comes with standard data, including the `cars` dataset we used for our plot.  It's not in our environment because we haven't saved it with `<-`.  
+
+> Checkpoint 6: Make a code chunk below, choose a name for the cars dataset, then save `cars` to it by using `<- cars`
+
+## Tidyverse  
+
+
 > Stage, commit, and push your code following instructions on GitHub.
+
+
 
 
