@@ -139,8 +139,11 @@ RStudio comes with standard data, including the `cars` dataset we used for our p
 
 > After successfully completing checkpoint 6, commit your code again.
 
-## Tidyverse  
+## Coding going forwards  
 
+In most situations in this course, you will be provided with templates to base your code on.  If you are unfamiliar with programming in R or the R Tidyverse, and you would like additional support, please let me know by specifying below. 
+
+> Checkpoint 7: If you would like additional help with R, replace this text.  
 
 > Stage, commit, and push your code following instructions on GitHub.
 
