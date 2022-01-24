@@ -9,7 +9,7 @@ date: Last Updated On `r Sys.Date()`
 
  
 ```{r packages, echo = FALSE, message = FALSE}
-##Install Kable Extra if you need
+##Install kableExtra and Janitor - only run once
 ##install.packages("kableExtra")
 ##install.packages("janitor")
 
@@ -26,7 +26,9 @@ If you would like to customize your Community Labor table, go to [KableExtra's G
 ## Make your Dataset 
 
 my_labor <- tibble(Labor = character(), Date = character()) %>%
-  ##Adding Labor
+  ##Adding Labor 
+      ##Note: Usually this would be done by Date and Labor separate vectors, then combining in tibble()
+      ##add_row's are used here instead to make clear which date belongs to which labor
   add_row(Labor = "[Slack Engagement 1]()", Date = "Your Completion Date") %>%
   add_row(Labor = "[Slack Engagement 2]()", Date = NA) %>%
   add_row(Labor = "[Slack Engagement 3]()", Date = NA) %>%
@@ -60,7 +62,7 @@ my_labor <- tibble(Labor = character(), Date = character()) %>%
 ```{r making your table, echo = FALSE}
 kable(my_labor) %>%
   kable_paper("hover", full_width = F, position = "left") %>% ##Aesthetics
-  row_spec(21, bold = T, color = "white", background = "#D7261E") ##highlight onto total row
+  row_spec(21, bold = T, color = "white", background = "#D7261E") ##highlight the total row
 
 ```
 
