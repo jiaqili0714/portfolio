@@ -80,7 +80,7 @@ If you would like to know more about customizing HTMLs and PDFs with the YAML he
 
 To add citations to R Markdowns, we can either manually type add them, or we can add a BibTeX file (.bib) and use that to automatically insert citations.  BibTex files can be exported from citation managers like Zotero, or we can even use websites like Google Scholar to retrieve a citation in BibTeX formatting then paste it into your BibTex file. Empty .bib's have already been provided in your Mini Project folders.  Open the `setting-up.bib` file by clicking it in the Files menu on the bottom right.  There should be one reference in it already.
 
-To use a .bib file for citations, we need to add `bibliography: FILE_NAME.bib` to our YAML header.  Then, where we want an in-text citation, we need to say @KEY.  The Key is the very first string of characters following the opening bracket at the top of a reference.  For example, @xie2020r is the key for the R Markdown Cookbook. When you knit the document with the YAML header, there will be an in-text citation in the key's place.
+To use a .bib file for citations, we need to add `bibliography: FILE_NAME.bib` to our YAML header.  Then, where we want an in-text citation, we need to say @KEY.  The Key is the very first string of characters following the opening bracket at the top of a reference.  For example, @xie2020r is the key for the R Markdown Cookbook. When you knit the document with the YAML header, there will be an in-text citation in the key's place.  The full citation will also appear at the bottom of the document. 
 
 > Checkpoing 4: Update the YAML header to include a bibliography with `setting-up.bib`.  Go to google scholar, search for "R Markdown: The Definitive Guide", copy the BibTeX citation and paste it into `setting-up.bib` as the second entry.  Then, add an in-text citation to it below. Knit your document to make sure it shows up.  
 
@@ -197,7 +197,7 @@ Anytime we use a package for additional commands, you'll need to load it in with
 # YOUR DATASET NAME
 ```
 
-> Checkpoint 9: Make a code chunk below.  With the Tidyverse command `filter`, find only the cars that took longer than 20 meters to stop.  There should be 10.  (Use ?filter and scroll to the bottom to see examples if you need. Note that the examples all say the dataset as the first item, but because of piping, you don't need to).  
+> Checkpoint 9: Make a code chunk below.  With the Tidyverse command `filter`, find only the cars that took longer than 20 meters to stop.  There should be 10.  Hint: Use ?filter and scroll to the bottom to see examples if you need. Note that the examples all say the dataset as the first item, but because of piping, you don't need to. 
 
 > After successfully completing checkpoint 9, commit your code again.
 
@@ -205,14 +205,12 @@ DELETE THIS TEXT AND ADD CODE CHUNK HERE
 
 ## Coding going forwards  
 
-In most situations in this course, you will be provided with templates to base your code on.  If you are unfamiliar with programming in R or the R Tidyverse, and you would like additional support, please let me know by specifying below. 
+We anticipate that this R Markdown file contains largely review information for many of you.  If you're less comfortable with this material or the majority R Markdown was new information, please let us know so we can best support you.  The coding in this course should not be a barrier for your success.
 
-Add something like this: this markdown file we anticipate would be largely review for many of you.  If you're amongst the folks where you're less comfortable with the material, please let us know so we can best support you.
-
-> Checkpoint 10: If you would like additional help with R, replace this text.  
+> Checkpoint 10: If you would like additional support with R, replace this text.  
 
 > Stage, commit, and push your code following instructions on GitHub.
 
-## References
-
+## References 
+(This area is empty because the YAML bibliography header will paste the references here)
 
