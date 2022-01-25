@@ -23,10 +23,10 @@ Ask the interviewee if they are comfortable with you recording the conversation.
 
 ## Write-up
 
-Following your interview, you will write-up a 500-750 word memo in `interview-writeup.Rmd` describing and interpreting what was discussed throughout the conversation. Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up.
+Following your interview, you will write-up a 750-1000 word memo in `interview-writeup.Rmd` describing and interpreting what was discussed throughout the conversation. Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up.
 
 ## Criteria for completion
 
 * Student fills out `interview-questions.Rmd` with 10 relevant interview questions developed in preparation for the interview.
-* Student writes a 500-750 word memo in `interview-writeup.Rmd` describing and interpreting what was discussed in the interview. 
+* Student writes a 750-1000 word memo in `interview-writeup.Rmd` describing and interpreting what was discussed in the interview. 
 
