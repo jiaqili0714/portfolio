@@ -8,7 +8,7 @@ Following the framework in `discourse-analysis-worksheet.Rmd`, you should examin
 
 ## Write-up
 
-Following your analysis, you will write-up a 500-750 word memo in `discourse-analysis-writeup.Rmd` detailing the discourse conveyed in the talk(s). Direct quotations should be referenced throughout (and cited) to back up your claims, but do not count towards the overall word count. Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up. If you choose option 2, you should offer some comparison and/or synthesis of the discourse across the talks.
+Following your analysis, you will write-up a 750-1000 word memo in `discourse-analysis-writeup.Rmd` detailing the discourse conveyed in the talk(s). Direct quotations should be referenced throughout (and cited) to back up your claims, but do not count towards the overall word count. Your write-up should have introductory and concluding paragraphs that clearly indicate the central point you are making in the write-up and that point should be carried through all of the examples and arguments presented in the write-up. If you choose option 2, you should offer some comparison and/or synthesis of the discourse across the talks.
 
 ## Criteria for completion
 
