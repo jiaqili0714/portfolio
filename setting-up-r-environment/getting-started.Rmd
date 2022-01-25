@@ -3,6 +3,7 @@ title: "Getting Started"
 author: "ADD YOUR NAME"
 date: "1/24/2022"
 output: html_document
+bibliography: setting-up.bib
 ---
 
 > <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed by Rose Evard under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
@@ -78,11 +79,11 @@ If you would like to know more about customizing HTMLs and PDFs with the YAML he
 
 ### Bibliographies 
 
-To add citations to R Markdowns, we can either manually type add them, or we can add a BibTex file (.bib) and use that to automatically insert citations.  BibTex files can be exported from citation managers like Zotero, or we can even use websites like Google Scholar to retrieve a citation in BibTex formatting then paste it into your BibTex file. Empty .bib's have already been provided in your Mini Project folders.  Open the `setting-up.bib` file by clicking it in the Files menu on the bottom right.  There should be one reference in it already
+To add citations to R Markdowns, we can either manually type add them, or we can add a BibTeX file (.bib) and use that to automatically insert citations.  BibTex files can be exported from citation managers like Zotero, or we can even use websites like Google Scholar to retrieve a citation in BibTeX formatting then paste it into your BibTex file. Empty .bib's have already been provided in your Mini Project folders.  Open the `setting-up.bib` file by clicking it in the Files menu on the bottom right.  There should be one reference in it already.
 
-To use a .bib file for citations, we need to add `bibliography: FILE_NAME.bib` to our YAML header.  Then, where we want an in-text citation, we need to say @KEY.  The Key is the very first string of characters following the opening bracket at the top of a reference.  For example, @xie2020r . When you knit the document, there will be an in-text citation in its place.
+To use a .bib file for citations, we need to add `bibliography: FILE_NAME.bib` to our YAML header.  Then, where we want an in-text citation, we need to say @KEY.  The Key is the very first string of characters following the opening bracket at the top of a reference.  For example, @xie2020r is the key for the R Markdown Cookbook. When you knit the document with the YAML header, there will be an in-text citation in the key's place.
 
-> Checkpoing 4: Go to google scholar, search for "R Markdown: The Definitive Guide", copy the BibTex citation and paste it into setting-up.bib.  Then, add an in-text citation below. Knit your document to make sure it shows up.  
+> Checkpoing 4: Update the YAML header to include a bibliography with `setting-up.bib`.  Go to google scholar, search for "R Markdown: The Definitive Guide", copy the BibTeX citation and paste it into `setting-up.bib` as the second entry.  Then, add an in-text citation to it below. Knit your document to make sure it shows up.  
 
 > After successfully completing checkpoint 4, commit your code again. Additionally, commit your setting-up.bib file.
 
