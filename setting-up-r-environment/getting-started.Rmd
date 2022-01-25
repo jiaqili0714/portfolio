@@ -78,15 +78,23 @@ If you would like to know more about customizing HTMLs and PDFs with the YAML he
 
 ### Bibliographies 
 
-To add citations to R Markdowns, we can either manually type add them, or we can add a BibTeX file (.bib) and use that to automatically insert citations.  BibTex files can be exported from citation managers like Zotero, or we can even use websites like Google Scholar to retrieve a citation in BibTeX formatting then paste it into your BibTex file. Empty .bib's have already been provided in your Mini Project folders.  Open the `setting-up.bib` file by clicking it in the Files menu on the bottom right.  There should be one reference in it already.
+To add citations to R Markdown files, we can either manually type them into the document, or we can add a BibTeX file (.bib) to our R project and reference the bibliographic metadata in that file to automatically insert citations into the document.  BibTex files with full bilbiographic metadata can be exported from citation managers like [Zotero](https://www.zotero.org/) and then added to the same directory as your R Markdown files. We highly encourage you to develop a practice of storing your citations in citation managers like Zotero. [Here](https://www.youtube.com/watch?v=JG7Uq_JFDzE&ab_channel=TopTipBio) is a great tutorial video on getting started with Zotero, and [here](https://www.youtube.com/watch?v=ixUF3BN_KOA&ab_channel=AlanArnholt) is another tutorial on exporting BibTex files. 
 
-To use a .bib file for citations, we need to add `bibliography: FILE_NAME.bib` to our YAML header.  Then, where we want an in-text citation, we need to say @KEY.  The Key is the very first string of characters following the opening bracket at the top of a reference.  For example, @xie2020r is the key for the R Markdown Cookbook. When you knit the document with the YAML header, there will be an in-text citation in the key's place.  The full citation will also appear at the bottom of the document. 
+Alternatively, you can use websites like [Google Scholar](scholar.google.com) to retrieve a citation in BibTeX formatting and then paste it into your BibTex file. If you search for an article or book in Google Scholar, underneath the link to the resource, you will find a link with the text "Cite". When we click on that Cite link, the resulting box will include a link at the bottom with the text "Bibtex." If you click on that link, you will find a Bibtex entry for that resource that you can copy and paste into a BibTex file in your R project. 
+
+Open the `setting-up.bib` file by clicking it in the Files menu on the bottom right of your RStudio interface.  There should be one reference in this file already. You'll notice that this entry has a bunch of metadata listed - the resource's title, author, and publisher, for example. The very first string of characters following the opening bracket at the top of a reference in the .bib file is the unique key for that resource. For example, @xie2020r is the key for the R Markdown Cookbook. We can use that key to reference the resource in our R Markdown file. 
+
+There are three things that we need to do to add citations from our .bib file in our R Markdown file. First, we need to add `bibliography: FILE_NAME.bib` to our YAML header in the R Markdown file. When we knit the document, this communicates that R should look for that file in our project to find the bibliographic metadata needed to produce in-text citations and bibliographies.  Second, we need to add a .csl file to the YAML header. This tells R which citation format (APA, MLA, Chicago, etc.) to use when configuring bibliographies. Finally, where we want to include an in-text citation in the body of the document, we need list the unique key for the citation, following the '@' symbol. For example to cite the R Markdown cookbook, we would type `@xie2020r`. With these three things in place, when you knit the document with the YAML header, there will be an in-text citation in the key's place in the format specified by the .csl.  The full citation will also appear at the bottom of the document. 
 
 > Checkpoing 4: Update the YAML header to include a bibliography with `setting-up.bib`.  Go to google scholar, search for "R Markdown: The Definitive Guide", copy the BibTeX citation and paste it into `setting-up.bib` as the second entry.  Then, add an in-text citation to it below. Knit your document to make sure it shows up.  
 
 > After successfully completing checkpoint 4, commit your code again. Additionally, commit your setting-up.bib file.
 
 DELETE THIS TEXT AND ADD AN IN-TEXT CITATION 
+
+**Note that empty .bib's have already been provided in all of your assignment folders in this portfolio, so you need only copy and paste BibTex entries into those files. We've also already added references to those files and the appropriate .csl files to the assignment YAML headers.**  
+
+If you would like to read more about citing in R Markdown, see [this chapter](https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html).
 
 ## Markdown
 
