@@ -2,8 +2,12 @@
 title: "Getting Started"
 author: "ADD YOUR NAME"
 date: "8/19/2021"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
+
+> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed by Rose Evard under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -17,7 +21,7 @@ Follow steps 1-12 in `README.html` before beginning this document.  All of your 
 
 ## Git and GitHub 
 
-Git, the software which you just set up in RStudio, is software which helps with version control and collaboration.  GitHub is a public website that makes working with Git and creating joint projects (repositories or "repos") simpler.  Our course has two repos for you to use--the portfolio and the final project.  Your portfolio repo will be shared with me, but otherwise remain private.  Your final project repo will be shared among your group so all of you will be able to work on the same documents.  
+Git, the software which you just set up in RStudio, is software which helps with version control and collaboration.  GitHub is a public website that makes working with Git and creating joint projects (repositories or "repos") simpler.  Our course has two repos for you to use--the portfolio and the final project.  Your portfolio repo will be yours alone.  Your final project repo will be shared among your group so all of you will be able to work on the same documents.  
 
 Within a repo, you can make your own Branch.  A branch is a version of your repo which you can change without changing the original files (called the Main branch).  Branches are local (on your own device) and remote (on a server).  In most cases, you'll only need to make branches when you're working in a group and don't want to disrupt other work; if no one else is editing the repo, working in Main is fine.  By making a "commit" to your branch, you save its current state locally.  It's best practice to make many commits as you edit your documents, usually after a discrete section has been completed.  To make the remote branch match your branch, you "push" your commits. When you're in a shared repo, others would then be able to open your branch and see its current state.  In other words, you synced your document with a version of the branch that everyone can see, and they can now see your work. 
 
@@ -125,6 +129,7 @@ Make THIS TEXT bold.
 Markdown has a couple quirks surrounding linespacing once the document is knit.  If we include an empty line between new paragraphs, they will be separated in our knitted documents.
 If we include no new lines and no spaces at the end of the previous line they will merge together.  
 If we include no new lines **and** 2 spaces following the end of previous line, the two paragraphs will be on separate lines but have no blank lines between them.  
+
   Tabs at the start of the line do nothing.  
 
 In short, we need to put line breaks between every paragraph to make sure our document is readable when knit.  
@@ -197,6 +202,8 @@ DELETE THIS TEXT AND ADD CODE CHUNK HERE
 ## Coding going forwards  
 
 In most situations in this course, you will be provided with templates to base your code on.  If you are unfamiliar with programming in R or the R Tidyverse, and you would like additional support, please let me know by specifying below. 
+
+Add something like this: this markdown file we anticipate would be largely review for many of you.  If you're amongst the folks where you're less comfortable with the material, please let us know so we can best support you.
 
 > Checkpoint 10: If you would like additional help with R, replace this text.  
 
