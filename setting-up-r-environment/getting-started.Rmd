@@ -116,7 +116,7 @@ If we want to add a hyper-link to an R Markdown file, we can place the text we w
 
 [This is a link to our GitHub organization.](https://github.com/SDS-237-Data-Ethnography-Spring-22) 
 
-We can images in a similar way, but include an ! beforehand. 
+We can add images in a similar way, but include an ! beforehand. 
 
 ![This is our course logo, designed by Zoe Scheffler Fall '21](images/sds237logo.png)
 
