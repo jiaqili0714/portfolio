@@ -140,7 +140,7 @@ Section 3 of [this Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/0
 
 > After successfully completing checkpoint 5, commit your code again.
 
-Make THIS TEXT bold. 
+**Make THIS TEXT bold. **
 
 ### Markdown and Line Spacing 
 
