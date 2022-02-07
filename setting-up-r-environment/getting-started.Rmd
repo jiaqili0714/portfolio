@@ -176,7 +176,10 @@ Section 5 of [this Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/0
 
 > After successfully completing checkpoint 6, commit your code again.
 
-DELETE THIS TEXT AND ADD CODE CHUNK HERE
+```{r fig.width=3,fig.height=3}
+plot(cars)
+```
+
 
 
 Notice how the object `sum` showed up in our Environment tab on the top right.  Any new object we make with the assignment symbol `<-` will show there.  If you press the broom icon in the Environment tab, your list of objects will be cleared.  It can be nice to clear your Environment if you have many objects that you aren't using.  Since we have the code to remake `sum`, we don't have to worry if we clear it from the Environment.  
