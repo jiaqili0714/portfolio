@@ -3,8 +3,10 @@ title: "Getting Started"
 author: "Jiaqi Li"
 date: "1/24/2022"
 output:
-  pdf_document: default
-  html_document: default
+  pdf_document:
+    toc: true
+  html_document:
+    toc_float: true
 csl: ../resources/chicago-author-date.csl
 ---
 
