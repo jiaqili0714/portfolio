@@ -1,6 +1,6 @@
 ---
 title: "SDS 237 - Mini-Project: Infrastructural Analysis Annotated Bibliography"
-author: "YOUR NAME HERE"
+author: "Jiaqi Li"
 date: "Last updated on `r Sys.Date()`"
 output: pdf_document
 bibliography: infrastructural-analysis.bib
@@ -9,10 +9,7 @@ csl: ../../resources/chicago-author-date.csl
 
 > Complete your annotated bibliography below. 
 
-1. A short history of GDP: moving towards better measures of human well-being
-
-This article briefly introduces the history of GDP invention and how European countries in the International Monetary Fund(IMF) play an important role in shaping its measure methodology. It also points out that GDP is an inaccurate measurement of human well-being since it is based on an incomplete picture of the system within which the human economy operates. 
-
+1. 
 @article{costanza2014short,
   title={A short history of GDP: moving towards better measures of human well-being},
   author={Costanza, Robert and Hart, Maureen and Kubiszewski, Ida and Talberth, John and others},
@@ -23,11 +20,9 @@ This article briefly introduces the history of GDP invention and how European co
   year={2014}
 }
 
+This article briefly introduces the history of GDP invention and how European countries in the International Monetary Fund(IMF) play an important role in shaping its measure methodology. It also points out that GDP is an inaccurate measurement of human well-being since it is based on an incomplete picture of the system within which the human economy operates. 
 
-2. The Long Twentieth Century: Money, Power, and the Origins of Our Times, London: Verso.
-
-This paper explains the Peace of Westphalia and how England and France gradually rose to dominant positions through a series of wars and the formation of nation-states in Europe.
-
+2. 
 @book{arrighi1994long,
   title={The long twentieth century: Money, power, and the origins of our times},
   author={Arrighi, Giovanni},
@@ -35,11 +30,9 @@ This paper explains the Peace of Westphalia and how England and France gradually
   publisher={verso}
 }
 
+This paper explains the Peace of Westphalia and how England and France gradually rose to dominant positions through a series of wars and the formation of nation-states in Europe.
 
-3. Gross Domestic Power: A History of GDP as Numerical Rhetoric
-
-The paper explains the usually overlooked part of GDP’s history around the 17th century, providing evidence that the creation of GDP was politically motivated and often utilized as a political weapon.
-
+3. 
 @article{assa2019gross,
   title={Gross Domestic Power: A History of GDP as Numerical Rhetoric},
   author={Assa, Jacob},
@@ -50,11 +43,10 @@ The paper explains the usually overlooked part of GDP’s history around the 17t
   publisher={Casa Editrice Leo S. Olschki}
 }
 
+The paper explains the usually overlooked part of GDP’s history around the 17th century, providing evidence that the creation of GDP was politically motivated and often utilized as a political weapon.
 
-4. Doughnut economics: seven ways to think like a 21st-century economist
 
-It reflects on the flaw of the current economic model, such as not counting women’s work in the household as part of GDP, encouraging unsustainable ways of developing the economy at the expense of natural resources.
-
+4. 
 @book{raworth2017doughnut,
   title={Doughnut economics: seven ways to think like a 21st-century economist},
   author={Raworth, Kate},
@@ -62,12 +54,10 @@ It reflects on the flaw of the current economic model, such as not counting wome
   publisher={Chelsea Green Publishing}
 }
 
+It reflects on the flaw of the current economic model, such as not counting women’s work in the household as part of GDP, encouraging unsustainable ways of developing the economy at the expense of natural resources.
 
 
-5. Imputing away the ladder: Implications of changes in national accounting standards for assessing inter-country inequalities
-
-This article talks about how the U.S changes System of Nation Account, redefining the yardstick of development to fit recent strengths of advanced economies. Thus the gap between developing countries and Western countries becomes even greater.
-
+5. 
 @article{assa2018imputing,
   title={Imputing away the ladder: Implications of changes in national accounting standards for assessing inter-country inequalities},
   author={Assa, Jacob and Kvangraven, Ingrid H and others},
@@ -76,4 +66,4 @@ This article talks about how the U.S changes System of Nation Account, redefinin
   year={2018}
 }
 
-
+This article talks about how the U.S changes System of Nation Account, redefining the yardstick of development to fit recent strengths of advanced economies. Thus the gap between developing countries and Western countries becomes even greater.

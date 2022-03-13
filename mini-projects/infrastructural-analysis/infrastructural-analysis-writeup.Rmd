@@ -1,11 +1,26 @@
 ---
 title: "SDS 237 - Mini-Project: Infrastructural Analysis"
-author: "YOUR NAME HERE"
+author: "Jiaqi Li"
 date: "Last updated on `r Sys.Date()`"
 output: pdf_document
 bibliography: infrastructural-analysis.bib
 csl: ../../resources/chicago-author-date.csl
 ---
 
-[Compose your write-up here.]
+Gross Domestic Product(GDP) was created for politically motivated purposes in the 17th century. Though the modern modified version of GDP after World War II does make GDP more objective by having economists study its methodologies, it has always been exploited as a political weapon even until today.
+
+GDP has not been objective and has been utilized as a political tool since its creation in the 17th century. According to the [U.S Bureau of Economic Analysis](https://www.bea.gov/data/gdp/gross-domestic-product), “Gross Domestic Product (GDP)” is defined as the total monetary or market value of all the finished goods and services produced within a country’s borders in a specific time period. Essentially, GDP is a measure of national wealth, economic development and power. We see politicians and TV commentators using it  all the time to evaluate economic growth.  As an estimate of national wealth, though its invention can be traced back to the 17th century, it is often thought that the Great Depression and World War II led countries such the UK and U.S to come up with ways to calculate budgets for wars without jeopardizing its citizens’ standard of living. However, the oftentimes overlooked part of GDP’s history reveals the politically-motivated purpose at the beginning of its invention. According to Arrighi[@arrighi1994long], England and France firmly established their dominance status among European countries after the Peace of Westphalia. One of the goals of calculating national wealth  was to prove to other potential competing countries that they were more powerful. Another goal is to use it as a political weapon to argue in favor of certain policies. For instance, William Petty, an English economist, estimated the national income of England to compare its strength with Holland and France. He also used the measurement to argue for a proportional tax policy. The French were more explicit about utilizing GDP as a political weapon: Pierre de Boisguilbert, an French economist, calculated France’s national income specifically to repute Louis XIV’s policy as wrecking the French economy. From the 17th century, the origin of GDP, to the 1940s, national income calculation was carried out for the purpose of arguing over policies and whoever was calculating it got to decide the methodology (such as what to include in the estimate). Thus, it was very easily prone to biases back then. 
+Revised version of GDP after World War II is a form of conditionality that ensures western European countries would have incentives from their GDP numbers to follow policies, such as trade liberalization, investment in real-estate, favored by the White capitalism[@assa2019gross]. Following the end of World War II, leaders of allied nations gathered in Bretton Woods to discuss international cooperation and the result was the establishment of the International Monetary Fund (IMF) and the International Bank for Reconstruction and Development (now part of the World Bank). Because of United States’s political strength, the so-called equal voice within these organizations turned out to be the U.S dominating every discourse, including the methodology of calculating GDP. Undeniably, compared to the 17th century’s version, GDP estimation after World War II could be considered as an objective exercise since . However, it is still utilized as a political weapon, especially during the Cold War. For a country to receive support from the Marshall Plan, it had to accept the American GDP measuring standard. Consequently, it would affect a country’s policy in order to increase its GDP. The conditionality of American GDP measuring standards implicitly forced other countries to align their policies with the U.S political agenda.
+
+Additionally, the U.S. would tweak GDP standards for it to better suit developed European countries’s economic mode. Before 2008 only profits from the intermediation of deposited funds counted in the calculation of their “value-added”. After 2008, even profits on lending the banks’ own equity was considered productive, thus dropping the pretense of financial intermediation as the reason for considering banks productive in the first place[@assa2018imputing]. Western countries with higher levels of financialization would perform “better” with the new GDP standard that puts heavy emphasis on investment. On the other hand, underdeveloped countries which are still on the path of industrialization are at a disadvantaged position. By placing emphasis on financialization, the U.S implicitly pushes other countries, specifically non-Western underdeveloped countries, to loosen trade limitations and open up to foreign capitals entering into domestic banks.
+
+Here’s the GDP per capita of China and the US. With finance, insurance and real-estate components included, China’s GDP only reached 45.8% by 2010. However, if the GDP standard does not include these components, China’s GDP per capita would reach 80.2% by 2010. This example illustrates how evaluation of countries’s economic performances could be easily impacted by the given standard.
+
+
+
+```{r}
+library(readr)
+gdp <- read_csv("~/Desktop/School/SDS237-Data Ethnography/SDS237 portfolio/mini-projects/infrastructural-analysis/gdp.csv")
+gdp
+```
 
