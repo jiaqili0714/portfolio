@@ -35,15 +35,24 @@ After hearing my view about Big Data, M refuted: “If everyone is as nihilistic
 ## Journal Entry 2 
 
 ```{r metadata_2, echo=FALSE, results='asis'}
-observer_2 <- "FILL YOUR NAME"
-date_observed_2 <- mdy("01/01/1990")
-date_written_up_2 <- mdy("01/01/1990")
-location_2 <- "FILL LOCATION"
+observer_2 <- "Jiaqi Li"
+date_observed_2 <- mdy("03/16/2022")
+date_written_up_2 <- mdy("03/22/2022")
+location_2 <- "Hotel lounge"
 
 cat(paste0("This entry documents a data environment ", observer_2, " observed on ", date_observed_2, " in ", location_2, ". The observations were written up on ", date_written_up_2, "."))
 ```
 
-[Enter your write-up here.]
+Recently I am applying for summer internships, and one thing strikes me, as an international student, is how U.S companies specifically ask candidates’ to identify themselves with one of the race classifications: White, Black, Latino, American Indian/Alaska Native, Asian, or Pacific Islander. I’ve worked for companies based in both Europe and Asia before, but none of the companies that I know ask about races. Rather, they usually ask about the country of citizenship, or the country that the person grew up in. That’s when I realized that race is actually a very American thing, a human-constructed thing. The identity of White, Black or Asian are somewhat made and reinforced by a set of discriminatory policies such as the Jim Crow law and the Chinese Exclusion Act.
+
+My Asian friend X's experience probably could best illustrate this. 
+
+X was a bit drunk that day because it was our first day in Cancun. She got really excited and drank more than usual. We were joking that even Cancun is full of white frat boys. Then she started open up more.
+
+X was born and raised in New Jersey, which didn’t have a large Asian population, compared to the West Coast. She told me that she was very used to being the Asian token friend in the friend circle. On the bright side, she got to introduce her White friends to Asian culture, taking them to Korean BBQ, and watching anime together. But she never is an anime fan, though it is good to watch a few episodes sometimes to kill time, and prefers spicy food because her Chinese mom from Sichuan loves it. She was just introducing her White friends to a small part of Asian culture that is considered acceptable here in the United States, playing the role of the typical Asian friend who is into anime and K-pop, because she knew from a very young age that exhibiting unacceptable Asian traits can bring consequences.
+
+Fitting into the average Asian image was not the only task, X also wanted to break the Asian stereotype, showing that she was not like other Asians. She wanted to be “that cool Asian kid”. X tried joining the cross country club in middle school, to be more athletic, but she had tutor session to go to after school so she quit eventually. The conflict between trying to be the average Asian and wanting to be seen differently than other Asians lasted throughout her teenage years. The label “Asian” clearly has much influence on her, and the **looping effect** is obvious.
+
 
 ## Journal Entry 3
 
