@@ -7,14 +7,14 @@ output: pdf_document
 
 > Enter your interview questions below:
 
-1.
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
+1. Why do you want to be an ethnographer? Why are you interested in ethnography?
+2. What do ethnographers do? Why are these works considered as data?
+3. What’s your daily interaction with data like? How do you process qualitative data? 
+4. How do you develop data expertise? Is there any difference between data professionals who handle qualitative data and those who handle quantitative data?
+5. Are there any difficulties when dealing with qualitative data?
+6. In what way does digital ethnography transform the traditional approach of ethnography research?
+7. How qualitative data work is valued and rewarded
+8. How do you perceive your sense of belonging in data communities?
+9. What is something about ethnography that you think makes it an essential component of research?
+10. If you could, what would you do to contribute to the data communities as an ethnographer?
 
