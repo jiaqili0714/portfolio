@@ -70,15 +70,22 @@ cat(paste0("This entry documents a data environment ", observer_3, " observed on
 ## Journal Entry 4
 
 ```{r metadata_4, echo=FALSE, results='asis'}
-observer_4 <- "FILL YOUR NAME"
-date_observed_4 <- mdy("01/01/1990")
-date_written_up_4 <- mdy("01/01/1990")
-location_4 <- "FILL LOCATION"
+observer_4 <- "Jiaqi Li"
+date_observed_4 <- mdy("04/01/2022")
+date_written_up_4 <- mdy("04/06/2022")
+location_4 <- "Neilson Library 3rd floor"
 
 cat(paste0("This entry documents a data environment ", observer_4, " observed on ", date_observed_4, " in ", location_4, ". The observations were written up on ", date_written_up_4, "."))
 ```
 
-[Enter your write-up here.]
+About 5 days ago, I received an email from the SDS department saying that a psychology research that studies personality differences between bilingual and monolingual speakers needs fluent bilingual Chinese/English speakers to participate by taking a survey. 
+
+Sitting in the Neilson library with my friend, who is an international student from Myanmar, I wondered why they specifically asked for Chinese/English speakers, instead of Burmese/English speakers. It could be that comparatively the population of Chinese/English speakers is larger than any other language speakers, so it’s easier to gather more data for researchers. But again, if the question they are interested in is the difference between bilingual and monolingual, certainly Chinese/English bilingual speakers aren't representative of all bilingual speakers. With all my questions and doubts, I opened the link to the survey.
+
+After a series of questions giving consent to the research, a question asked “are you taking this survey to receive extra credit from Smith PSY 202 class?” At the end of the survey, people who came up with the survey explained that participants were initially told we were studying personality differences between bilingual and monolingual speakers, but in actuality they are studying whether or not the language that bilingual speakers are exposed to influences their expressed personality traits. 
+
+I think the data collection **ritual** used in this study could be biased. First of all, if I were the students from that class, I would definitely take the survey. For students who are in the same Psychology class, attending the same liberal arts college, their socioeconomic status, education level, family background and even personality, which is the focus of this study, could be similar. Additionally, the debrief at the end of the survey said that the purpose of this study is intentionally distorted when telling participants so they wouldn’t be influenced. However, just as I mentioned before, the “fake purpose” they provided didn’t serve its original intention. Quite the opposite, it actually made me wonder what the study really wanted.
+
 
 ## Journal Entry 5
 
